@@ -13,6 +13,8 @@
 		020BEB4024E45D790056A824 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020BEB3F24E45D790056A824 /* Assets.xcassets */; };
 		020BEB4324E45D790056A824 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 020BEB4124E45D790056A824 /* LaunchScreen.storyboard */; };
 		020BEB4E24E45D790056A824 /* demo_tableView_detailViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020BEB4D24E45D790056A824 /* demo_tableView_detailViewTests.swift */; };
+		020BEB5924E45E040056A824 /* HeroDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020BEB5824E45E040056A824 /* HeroDetailViewController.swift */; };
+		020BEB5B24E466100056A824 /* HeroStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020BEB5A24E466100056A824 /* HeroStats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		020BEB4924E45D790056A824 /* demo-tableView-detailViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "demo-tableView-detailViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		020BEB4D24E45D790056A824 /* demo_tableView_detailViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo_tableView_detailViewTests.swift; sourceTree = "<group>"; };
 		020BEB4F24E45D790056A824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		020BEB5824E45E040056A824 /* HeroDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailViewController.swift; sourceTree = "<group>"; };
+		020BEB5A24E466100056A824 /* HeroStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroStats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +83,12 @@
 			children = (
 				020BEB3824E45D770056A824 /* AppDelegate.swift */,
 				020BEB3A24E45D770056A824 /* ViewController.swift */,
+				020BEB5824E45E040056A824 /* HeroDetailViewController.swift */,
 				020BEB3C24E45D770056A824 /* Main.storyboard */,
 				020BEB3F24E45D790056A824 /* Assets.xcassets */,
 				020BEB4124E45D790056A824 /* LaunchScreen.storyboard */,
 				020BEB4424E45D790056A824 /* Info.plist */,
+				020BEB5A24E466100056A824 /* HeroStats.swift */,
 			);
 			path = "demo-tableView-detailView";
 			sourceTree = "<group>";
@@ -197,8 +203,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				020BEB5924E45E040056A824 /* HeroDetailViewController.swift in Sources */,
 				020BEB3B24E45D770056A824 /* ViewController.swift in Sources */,
 				020BEB3924E45D770056A824 /* AppDelegate.swift in Sources */,
+				020BEB5B24E466100056A824 /* HeroStats.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
